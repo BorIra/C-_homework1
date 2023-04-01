@@ -1,6 +1,5 @@
 ﻿// Принять число N и вывести все четные от 1 до N
 Console.Write("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
 
 int chet = 2;
 
