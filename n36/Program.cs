@@ -13,20 +13,18 @@ namespace exp36
                 return Convert.ToInt32(Console.ReadLine());
             }
             
-            void setArray(int n, int[] arr)
+            int[] setArray(int length, int minVal, int maxVal)
             {   // формирование массива случайных чисел
+                int[] result = new int[length];
                 Random rand = new Random();
-                for(int i = 0; i < n; i++) 
-                    arr[i] = rand.Next(0, 100);
+                for(int i = 0; i < length; i++) 
+                    result[i] = rand.Next(minVal, maxVal);
+                return result;
             }
             
             void outputArray(int n, int[] arr)
             {   // вывод массива случайных чисел
-                string text = "[";
-                for (int i = 0; i < n-1; i ++) 
-                    text = text + String.Format("{0:d}, ", arr[i]);
-                text = text + String.Format("{0:d} ]", arr[n-1]);
-               
+                string text = "[" + string.Join(", ", arr) + "]";
                 Console.WriteLine(text);
             }
 
@@ -44,9 +42,8 @@ namespace exp36
             }
             
             int size = setVal();
-            int[] mass = new int[size];
+            int[] mass = setArray(size, 0, 100);
             
-            setArray(size, mass);   
             outputArray(size, mass);
             outputVal(sumNeChet(mass, size));           
         }
