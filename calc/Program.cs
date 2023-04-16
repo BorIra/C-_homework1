@@ -12,7 +12,6 @@ namespace calc
             {'-', 1},
             {'*', 2},
             {'/', 2}
-          //  {'(', 10}
         };
         static Stack<double> nums = new Stack<double>();  // стек чисел
         static Stack<char> ops = new Stack<char>(); // стек операций и скобок
@@ -41,8 +40,7 @@ namespace calc
                     tmp = "";
                     count ++;
                 }
-                //else Console.Write("Ошибка ввода");
-                //тут должен быть выход из программы
+                //else Console.Write("Ошибка ввода"); // еще тут должен быть выход из программы
             }
             if(tmp != "") elements.Enqueue(tmp);    // последнее число в очередь, если оно есть
             tmp = "";
@@ -60,11 +58,11 @@ namespace calc
                 case '-' : rez  = a-b; Console.WriteLine("{0} - {1} = {2}", a, b, rez); break;
                 case '*' : rez  = a*b; Console.WriteLine("{0} * {1} = {2}", a, b, rez); break;
                 case '/' : rez  = a/b; Console.WriteLine("{0} / {1} = {2}", a, b, rez); break;
+                default: break;
             }
             return rez;
         }
 
-        //static void 
         static void decision()
         {   // вычисляем все выражение         
             string tmp;
