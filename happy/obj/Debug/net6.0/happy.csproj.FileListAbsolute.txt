@@ -1,0 +1,15 @@
+D:\C sh\seminar4\happy\obj\Debug\net6.0\happy.csproj.AssemblyReference.cache
+D:\C sh\seminar4\happy\obj\Debug\net6.0\happy.GeneratedMSBuildEditorConfig.editorconfig
+D:\C sh\seminar4\happy\obj\Debug\net6.0\happy.AssemblyInfoInputs.cache
+D:\C sh\seminar4\happy\obj\Debug\net6.0\happy.AssemblyInfo.cs
+D:\C sh\seminar4\happy\obj\Debug\net6.0\happy.csproj.CoreCompileInputs.cache
+D:\C sh\seminar4\happy\bin\Debug\net6.0\happy.exe
+D:\C sh\seminar4\happy\bin\Debug\net6.0\happy.deps.json
+D:\C sh\seminar4\happy\bin\Debug\net6.0\happy.runtimeconfig.json
+D:\C sh\seminar4\happy\bin\Debug\net6.0\happy.dll
+D:\C sh\seminar4\happy\bin\Debug\net6.0\happy.pdb
+D:\C sh\seminar4\happy\obj\Debug\net6.0\happy.dll
+D:\C sh\seminar4\happy\obj\Debug\net6.0\refint\happy.dll
+D:\C sh\seminar4\happy\obj\Debug\net6.0\happy.pdb
+D:\C sh\seminar4\happy\obj\Debug\net6.0\happy.genruntimeconfig.cache
+D:\C sh\seminar4\happy\obj\Debug\net6.0\ref\happy.dll
