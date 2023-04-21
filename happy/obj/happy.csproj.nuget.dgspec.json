@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C sh\\seminar4\\happy\\happy.csproj": {}
+    "D:\\C sh\\HomeWork\\happy\\happy.csproj": {}
   },
   "projects": {
-    "D:\\C sh\\seminar4\\happy\\happy.csproj": {
+    "D:\\C sh\\HomeWork\\happy\\happy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C sh\\seminar4\\happy\\happy.csproj",
+        "projectUniqueName": "D:\\C sh\\HomeWork\\happy\\happy.csproj",
         "projectName": "happy",
-        "projectPath": "D:\\C sh\\seminar4\\happy\\happy.csproj",
+        "projectPath": "D:\\C sh\\HomeWork\\happy\\happy.csproj",
         "packagesPath": "C:\\Users\\Irina\\.nuget\\packages\\",
-        "outputPath": "D:\\C sh\\seminar4\\happy\\obj\\",
+        "outputPath": "D:\\C sh\\HomeWork\\happy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Irina\\AppData\\Roaming\\NuGet\\NuGet.Config"
